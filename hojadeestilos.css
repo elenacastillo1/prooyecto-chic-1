@@ -1,0 +1,341 @@
+.index{ /*MENU*/
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    border:10px rgb(221, 111, 111) dotted;
+    margin: 10px;
+    flex-wrap: wrap;
+    border-radius: 50px;
+}
+.ti-home{
+    color: black;
+    
+}
+.logo{
+    width: 70px;
+    border-radius: 50%;
+}
+/*termina menu*/
+/*index*/
+.intro{ 
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    padding: 15px;
+    
+       border: 10px coral double;
+    
+}
+.flex-container{
+    border: 5px solid;
+   max-width: 100%;
+   height: auto;
+   padding: 35px;
+   display: flex;
+   flex-direction: row;
+   gap: 25px;
+   flex-wrap: wrap;
+}
+.a{
+    color: black;
+}
+.flex-hijos{
+    font-size: 15px;
+    width: 240px;
+    height: 240px;
+    border-color:black;
+    border-style: groove;
+    border: 8px rgb(12, 12, 12) solid;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    gap: 10px;
+}
+.flex-1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: cyan;
+    overflow: hidden;/*evitar desborde del texto*/
+
+}
+.flex-2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    text-wrap: wrap;
+    background-color: brown;
+    overflow: hidden;/*evitar desborde del texto*/
+
+}
+.flex-3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    text-wrap: wrap;
+    background-color: burlywood;
+    overflow: hidden;/*evitar desborde del texto*/
+
+}        
+.flex-4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    text-wrap: wrap;
+    background-color: coral;
+    overflow: hidden;/*evitar desborde del texto*/
+
+
+}
+.flex-5{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: rgb(63, 109, 109);
+    overflow: hidden;/*evitar desborde del texto*/
+    
+
+}
+.flex-6{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    text-wrap: wrap;
+    background-color: rgb(209, 112, 112);
+    overflow: hidden;/*evitar desborde del texto*/
+
+}
+.flex-7{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    text-wrap: wrap;
+    background-color: rgb(141, 116, 84);
+    overflow: hidden;/*evitar desborde del texto*/
+
+}        
+.flex-8{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    text-wrap: wrap;
+    background-color:darkseagreen;
+    overflow: hidden;/*evitar desborde del texto*/
+
+
+}
+/*termina index*/
+
+/*inicia4 cuidados de piel*/
+.h4-body{
+    background:linear-gradient(60deg,#eb92ea,#ec2786);
+}
+.cdp{
+    border-radius: 50%;
+    width: 70px;
+    }
+.titu{
+    width: 90%;
+    height: 9;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Shrikhand", serif ;
+    color: #9f3e9d;
+    font-size: 50px;
+    font-weight: 10;
+    
+}
+
+.hoja4e{
+    background-color:bisque;
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 15px double rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.h4-1{
+    height: 250px;
+    width: 250px;
+    background-color: blueviolet;
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    border-radius:20px;
+    
+}
+.h4-2{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(142, 43, 91);
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    border-radius:20px;
+}
+.h4-3{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(68, 127, 152);
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+}
+.h4-4{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(77, 156, 116);
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+}
+/*termina 4*/
+
+/*hoja 5 skincare*/
+.hoja5{
+    background: linear-gradient(60deg,#c728c4,#dcc0ce);
+}
+.ho5-total{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+    margin: auto;
+background-color: aqua;
+border: #bdbdbd solid;
+
+}
+.h5-c1t{
+    width: 270px;
+    height: 200px;
+    background-color: #eb92ea;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 50px 120px 70px 50px;
+}
+.c1{
+    background-color: #ec2786;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.img-c1{
+    width: 70px;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+
+
+.h5-c2t{
+    width: 270px;
+    height: 200px;
+    background-color: #918091;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 50px 120px 70px 50px;
+}
+.c2{
+    background-color: #ec2786;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.img-c2{
+    width: 70px;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.h5-c3t{
+    width: 270px;
+    height: 200px;
+    background-color: #c4239c;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 50px 120px 70px 50px;
+    
+}
+.c3{
+    background-color: #ec2786;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.img-c3{
+    width: 70px;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.h5-c4t{
+    width: 270px;
+    height: 200px;
+    background-color: #674366;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 50px 120px 70px 50px;
+}
+.c4{
+    background-color: #ec2786;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.img-c4{
+    width: 70px;
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+}
